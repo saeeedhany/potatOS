@@ -1,23 +1,26 @@
 # potatOS
 
-**potatOS** is a hobby operating system built from scratch as a learning-focused and experimental project.
+**potatOS** is a hobby operating system built from scratch for learning and experimentation.
 
-The goal of potatOS is not to be practical or production-ready, but to deeply understand how operating systems work internally — from early boot stages to kernel subsystems — by implementing things manually and documenting the process along the way.
+The project focuses on understanding operating system internals, from the boot process to core kernel components, by implementing everything manually and documenting the journey.
 
-This project exists as a personal playground for low-level exploration, mistakes, experiments, and learning through building.
+## Documentation
 
----
+All development steps and technical notes are documented incrementally.
 
-## Documentation & Build Journal
+→ **[potatOS.org](https://saeeedhany.github.io/potatos.org/)**
 
-potatOS has a dedicated documentation site that acts as both a technical reference and a development journal.
-Each step of the build process is documented clearly and incrementally, making it easy to follow the system’s evolution over time.
+## Project Status
 
-→ **[potatOS.org](https://saeeedhany.github.io/potatos.org/)** *(This documention covers everything about the building process.)*
+- [x] Development environment setup
+- [x] Boot process exploration
+- [x] Kernel entry point & basic structure
+- [ ] Memory management foundations
+- [ ] Interrupts & CPU exception handling
+- [ ] Basic hardware interaction
+- [ ] Process model & scheduling
+- [ ] Filesystem basics
+- [ ] User mode support
+- [ ] System documentation & diagrams
 
-```
-/logs
-  ├─ 2025-10-11 Development Environment
-  ├─ 2025-10-14 Phase 1 — Boot Sequence
-  ├─ 2025-11-8 Project Paused
-```
+
